@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COUGROU</title>
+        <style>
+            /* 초기화 */
+            * {
+                margin: 0;
+                padding: 0;
+                font: normal 12px 'Dotum';
+            }
+            a {
+                text-decoration: none;
+            }
+            img {
+                border: 0;
+            }
+            ul {
+                list-style: none;
+            }
+            body {
+                width: 980px;
+                margin: 0 auto;
+            }
+
+            /* 헤더 */
+            #main_header > h1.logo {
+                position: absolute;
+                left: 15px;
+                top: 10px;
+            }
+            #main_header > div.login_menu {
+                position: absolute;
+                top: 10px;
+                right: 0px;
+            }
+            #main_header {
+                position: relative;
+                height: 75px;
+            }
+
+            /* 사이드 */
+            body {
+                position: relative;
+            }
+            #global_aside {
+                position: absolute;
+                left: 990px;
+                top: 485px;
+                width: 90px;
+            }
+            #global_aside > a {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            /* 내비게이션 위 */
+            #gnb_top {
+                overflow: hidden;
+            }
+            #gnb_top > div.menu {
+                float: left;
+                width: 140px;
+                height: 50px;
+                background: url('Images/gnb_top.png');
+                cursor: pointer;
+            }
+            #gnb_top > div.item_1 {
+                background-position:-0 -0;
+            }
+            #gnb_top > div.item_2 {
+                background-position: -0 -50px;
+            }
+            #gnb_top > div.item_3 {
+                background-position: -0 -100px;
+            }
+            #gnb_top > div.item_4 {
+                background-position: 0px -150px;
+            }
+            #gnb_top > div.item_5 {
+                background-position: 0px -200px;
+            }
+            #gnb_top > div.item_6 {
+                background-position: 0px -250px;
+            }
+            #gnb_top > div.item_7 {
+                background-position: 0px -300px;
+            }
+
+            #gnb_top > div.item_1:hover,
+            #gnb_top > div.item_1.active {
+                background-position: 0px -350px;
+            }
+            #gnb_top > div.item_2:hover,
+            #gnb_top > div.item_2.active {
+                background-position: 0px -400px;
+            }
+            #gnb_top > div.item_3:hover,
+            #gnb_top > div.item_3.active {
+                background-position: 0px -450px;
+            }
+            #gnb_top > div.item_4:hover,
+            #gnb_top > div.item_4.active {
+                background-position: 0px -500px;
+            }
+            #gnb_top > div.item_5:hover,
+            #gnb_top > div.item_5.active {
+                background-position: 0px -550px;
+            }
+            #gnb_top > div.item_6:hover,
+            #gnb_top > div.item_6.active {
+                background-position: 0px -600px;
+            }
+            #gnb_top > div.item_7:hover,
+            #gnb_top > div.item_7.active {
+                background-position: 0px -650px;
+            }
+
+            /* 내비게이션 아래 */
+            #gnb_sub {
+                overflow: hidden;
+            }
+            #gnb_sub > div.menu {
+                width: 98px;
+                height: 80px;
+                float: left;
+                background: url('Images/gnb_sub.png');
+                cursor: pointer;
+            }
+            #gnb_sub > div.item_1 {
+                background-position: 0px 0px;
+            }
+            #gnb_sub > div.item_2 {
+                background-position: 0px -80px;
+            }
+            #gnb_sub > div.item_3 {
+                background-position: 0px -160px;
+            }
+            #gnb_sub > div.item_4 {
+                background-position: 0px -240px;
+            }
+            #gnb_sub > div.item_5 {
+                background-position: 0px -320px;
+            }
+            #gnb_sub > div.item_6 {
+                background-position: 0px -400px;
+            }
+            #gnb_sub > div.item_7 {
+                background-position: 0px -480px;
+            }
+            #gnb_sub > div.item_8 {
+                background-position: 0px -560px;
+            }
+            #gnb_sub > div.item_9 {
+                background-position: 0px -640px;
+            }
+            #gnb_sub > div.item_10 {
+                background-position: 0px -720px;
+            }
+
+            #gnb_sub > div.item_1:hover,
+            #gnb_sub > div.item_1.active {
+                background-position: 0px -800px;
+            }
+            #gnb_sub > div.item_2:hover,
+            #gnb_sub > div.item_2.active {
+                background-position: 0px -880px;
+            }
+            #gnb_sub > div.item_3:hover,
+            #gnb_sub > div.item_3.active {
+                background-position: 0px -960px;
+            }
+            #gnb_sub > div.item_4:hover,
+            #gnb_sub > div.item_4.active {
+                background-position: 0px -10400px;
+            }
+            #gnb_sub > div.item_5:hover,
+            #gnb_sub > div.item_5.active {
+                background-position: 0px -1120px;
+            }
+            #gnb_sub > div.item_6:hover,
+            #gnb_sub > div.item_6.active {
+                background-position: 0px -1200px;
+            }
+            #gnb_sub > div.item_7:hover,
+            #gnb_sub > div.item_7.active {
+                background-position: 0px -1280px;
+            }
+            #gnb_sub > div.item_8:hover,
+            #gnb_sub > div.item_8.active {
+                background-position: 0px -1360px;
+            }
+            #gnb_sub > div.item_9:hover,
+            #gnb_sub > div.item_9.active {
+                background-position: 0px -1440px;
+            }
+            #gnb_sub > div.item_10:hover,
+            #gnb_sub > div.item_10.active {
+                background-position: 0px -1520px;
+            }
+
+            /* 목록 */
+            #detail_list > ul {
+                float: left;
+                width: 192px;
+            }
+            #detail_list > ul > li {
+                height: 13px;
+                margin-top: 5px;
+                padding: 3px 5px;
+                color: #f3f3f3;
+
+                /* 말줄임 삼총사 */
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            #detail_list > ul > li.header {
+                padding-left: 15px;
+            }
+            #detail_list > ul > li.header > p {
+                font-weight: bold;
+                color: #48c5ff;
+            }
+            #detail_list {
+                overflow: hidden;
+                padding: 10px;
+                background: #38414D;
+                padding-bottom: 15px;
+            }
+            /* 본문 */
+            #content {
+                margin-top: 10px;
+            }
+            #product_section {
+                overflow: hidden;
+                margin-top: 10px;
+            }
+            #product_article {
+                float: left;
+                border: 1px solid #d6d6d6;
+                width: 100%;
+                padding: 14px;
+                box-sizing: border-box;
+            }
+            #product_aside {
+                float: right;
+                padding-top: 0;
+                width: 170px;
+            }
+            #product_article > img {
+                display: block;
+            }
+            /* 푸터 */
+            #main_footer {
+                height: 50px;
+                text-align: center;
+                padding: 20px;
+                margin-top: 15px;
+                border-top: 2px solid #ddd;
+            }
+            #main_footer > h1 {
+                font-size: 1.2rem;
+                color: dimgray;
+            }
+            .top-link {
+                color: #333;
+                padding: 5px;
+            }
+            .prodLg {
+                background-image: url('Images/prodMain.jpg');
+                background-repeat: no-repeat;
+                background-position: -350px 0px;
+                width: 100%;
+                height: 450px;
+            }
+            .prodRow {
+                margin-bottom: 10px;
+                overflow: hidden;
+            }
+            .prodItem {
+                border: 1px solid #d6d6d6;
+                float: left;
+                cursor: pointer;
+                position: relative;
+            }
+            .prodAside {
+                cursor: pointer;
+            }
+            /* utility classes */
+            .m-l-10 {
+                margin-left: 10px;
+            }
+            .m-b-5 {
+                margin-bottom: 5px;
+            }
+            .m-t-5 {
+                margin-top: 5px;
+            }
+            .m-b-0 {
+                margin-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="main_header">
+            <h1 class="logo">
+                <a href="#"><img src="Images/title.png" /></a>
+            </h1>
+            <div class="login_menu">
+                <span><a href="#" class="top-link">로그인</a></span>
+                <span><a href="#" class="top-link">회원가입</a></span>
+                <span><a href="#" class="top-link">고객센터</a></span>
+            </div>
+        </header>
+        <aside id="global_aside">
+            <a><img class="prodAside" src="Images/prodAside1.png" /></a>
+            <a><img class="prodAside" src="Images/prodAside2.png" /></a>
+            <a><img class="prodAside" src="Images/prodAside3.png" /></a>
+            <a><img class="prodAside" src="Images/prodAside1.png" /></a>
+            <a><img class="prodAside" src="Images/prodAside2.png" /></a>
+        </aside>
+        <nav id="gnb_top">
+            <div class="menu item_1 active"></div>
+            <div class="menu item_2"></div>
+            <div class="menu item_3"></div>
+            <div class="menu item_4"></div>
+            <div class="menu item_5"></div>
+            <div class="menu item_6"></div>
+            <div class="menu item_7"></div>
+        </nav>
+        <nav id="gnb_sub">
+            <div class="menu item_1"></div>
+            <div class="menu item_2"></div>
+            <div class="menu item_3"></div>
+            <div class="menu item_4"></div>
+            <div class="menu item_5"></div>
+            <div class="menu item_6"></div>
+            <div class="menu item_7"></div>
+            <div class="menu item_8"></div>
+            <div class="menu item_9 active"></div>
+            <div class="menu item_10"></div>
+        </nav>
+        <div id="detail_list">
+            <ul>
+                <li class="header"><p>게임용 노트북</p></li>
+                <li>아이온 게임용 노트북</li>
+                <li>디아블로 게임용 노트북</li>
+                <li>블소 게임용 노트북</li>
+                <li class="header"><p>울트라북</p></li>
+                <li>헬로키티 울트라북</li>
+                <li>리락쿠마 울트라북 초특가</li>
+                <li>카피바라 울트라북</li>
+                <li>쵸파 울트라북</li>
+                <li>고양이 울트라북</li>
+            </ul>
+            <ul>
+                <li>둘리 울트라북</li>
+                <li class="header"><p>노트북 가방</p></li>
+                <li>솜사탕 브랜드 노트북 가방</li>
+                <li>보노보노 가방</li>
+                <li>랑콤 가방</li>
+                <li class="header"><p>받침대/쿨러</p></li>
+                <li>아이바네즈 받침대</li>
+                <li>깁슨 쿨러</li>
+                <li>헤라클레스 삼각 받침대</li>
+                <li>펜더 스트라토캐스터 쿨러</li>
+            </ul>
+            <ul>
+                <li class="header"><p>노트북 보호 용품</p></li>
+                <li>Node.js 방열 보호판</li>
+                <li>안드로이드</li>
+                <li>초특가 자바스크립트 보호대</li>
+                <li>기계 학습을 사용한 보호대  </li>
+                <li class="header"><p>맥북</li>
+                <li>원고를 작성하는 맥북 에어</li>
+                <li>레티나 디스플레이</li>
+                <li class="header"><p>노트북 보호 용품</p></li>
+                <li>물건 이름 만들기 힘들어</li>
+            </ul>
+            <ul>
+                <li>우주 방사능 보호 코팅제</li>
+                <li>자체 중력 생성 장치</li>
+                <li>초특가</li>
+                <li>노트북 투명화 스프레이</li>
+                <li>고압 전류</li>
+                <li class="header"><p>노트북 보조 용품</p></li>
+                <li>초특가</li>
+                <li>공간 균열 장치</li>
+                <li>프로그램 만드는 프로그램</li>
+                <li>초특가</li>
+            </ul>
+            <ul>
+                <li>미오 베이스 장치</li>
+                <li>공간을 지배하는자</li>
+                <li>현금 할인</li>
+                <li class="header"><p>외장 하드 디스크</p></li>
+                <li>토시바 500GB 외장 하드</li>
+                <li>초공간 통합 무한 메모리</li>
+                <li>모던 웹을 위한 Node.js 프로그래밍</li>
+                <li>모던 웹을 위한 JavaScript + jQuery 입문</li>
+                <li>윤인성</li>
+                <li>이름 만들기 힘들어요</li>
+            </ul>
+        </div>
+        <div id="content">
+            <figure id="product_image">
+                <div class="prodLg"></div>
+            </figure>
+            <section id="product_section">
+                <article id="product_article">
+                    <div class="prodRow">
+                        <div class="prodItem">
+                            <img class="prodItemImg" src="Images/prod1-1.jpg" />
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodItemImg" src="Images/prod1-2.jpg" />
+                        </div>
+                    </div>
+                    <div class="prodRow">
+                        <img class="prodItem" src="Images/prod2-1.jpg" />
+                        <img class="prodItem m-l-10" src="Images/prod2-2.jpg" />
+                        <img class="prodItem m-l-10" src="Images/prod2-3.jpg" />
+                        <img class="prodItem m-l-10" src="Images/prod2-4.jpg" />
+                    </div>
+                    <div class="prodRow m-b-0">
+                        <img class="prodItem" src="Images/prod3-1.jpg" />
+                        <img class="prodItem m-l-10" src="Images/prod3-2.jpg" />
+                        <img class="prodItem m-l-10" src="Images/prod3-3.jpg" />
+                    </div>
+                </article>
+            </section>
+        </div>
+        <footer id="main_footer">
+            <h1>모든 웹 디자인을 위한 HTML5 + CSS 입문</h1>
+        </footer>
+    </body>
+</html>
