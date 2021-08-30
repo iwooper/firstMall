@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>COUGROU</title>
+        <title>Chapter 8</title>
         <style>
             /* 초기화 */
             * {
@@ -284,6 +284,22 @@
                 cursor: pointer;
                 position: relative;
             }
+            .prodBuy {
+                background: url('Images/mainBtns.png');
+                width: 40px;
+                height: 40px;
+                text-indent: -99999px;
+                position: absolute;
+                top: 240px;
+                left: 20px;
+            }
+            .prodItem:hover {
+                border: 1px solid #0096e4;
+            }
+            .prodItem:hover > .prodBuy {
+                background-position: -40px 0;
+                width: 100px;
+            }
             .prodAside {
                 cursor: pointer;
             }
@@ -412,21 +428,44 @@
                     <div class="prodRow">
                         <div class="prodItem">
                             <img class="prodItemImg" src="Images/prod1-1.jpg" />
+                            <div class="prodBuy">구매하기</div>
                         </div>
                         <div class="prodItem m-l-10">
                             <img class="prodItemImg" src="Images/prod1-2.jpg" />
+                            <div class="prodBuy">구매하기</div>
                         </div>
                     </div>
                     <div class="prodRow">
-                        <img class="prodItem" src="Images/prod2-1.jpg" />
-                        <img class="prodItem m-l-10" src="Images/prod2-2.jpg" />
-                        <img class="prodItem m-l-10" src="Images/prod2-3.jpg" />
-                        <img class="prodItem m-l-10" src="Images/prod2-4.jpg" />
+                        <div class="prodItem">
+                            <img class="prodImage" src="Images/prod2-1.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodImage" src="Images/prod2-2.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodImage" src="Images/prod2-3.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodImage" src="Images/prod2-4.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
                     </div>
                     <div class="prodRow m-b-0">
-                        <img class="prodItem" src="Images/prod3-1.jpg" />
-                        <img class="prodItem m-l-10" src="Images/prod3-2.jpg" />
-                        <img class="prodItem m-l-10" src="Images/prod3-3.jpg" />
+                        <div class="prodItem">
+                            <img class="prodImage" src="Images/prod3-1.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodImage" src="Images/prod3-2.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
+                        <div class="prodItem m-l-10">
+                            <img class="prodImage" src="Images/prod3-3.jpg" />
+                            <div class="prodBuy">구매하기</div>
+                        </div>
                     </div>
                 </article>
             </section>
