@@ -306,6 +306,7 @@
             .prodAside {
                 cursor: pointer;
             }
+
             /* utility classes */
             .m-l-10 {
                 margin-left: 10px;
@@ -319,12 +320,10 @@
             .m-b-0 {
                 margin-bottom: 0px;
             }
-            .fl {
-                float: left;
+            .hidden {
+                display: none;
             }
-            .oh {
-                overflow: hidden;
-            }
+
             /* footer */
             .footer-layer1 {
                 height: 30px;
@@ -463,11 +462,32 @@
                 float: left;
             }
             /* product rotate */
-            .prodRotateS {
+            .prodRotateSmall {
                 position: absolute;
-                top: -430px;
+                top: 50px;
                 z-index: 1;
                 right: 70px;
+                box-shadow: 0px 4px 5px rgb(0 0 0 / 30%);
+            }
+            .prodRotateSmallLink {
+                display: block;
+            }
+            .prodRotateSmallImg {
+                vertical-align: top;
+            }
+            .prodRotateSmallItem {
+                position: relative;
+            }
+            .prodRotateSmallLink > .mask {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+            .prodRotateSmallLink > .mask:hover {
+                border: 2px solid #4285f4;
+                display: block;
             }
         </style>
     </head>
@@ -569,28 +589,59 @@
                 </div>
             </div>
 
-            <figure id="product_image">
-                <img src="Images/prodRotate1.jpg" class="prodRotateImg" />
-            </figure>
-
+            <!-- rotate small --->
             <div class="widthNarrow">
-                <ul class="prodRotateS">
-                    <li class="prodRotateSItem">
-                        <a href="#" onclick="retrun false">
-                            <img src="Images/prodRotateSmall1.jpg" width="180" height="60" alt="">
-                            <span class="mask">&nbsp;</span>
+                <ul class="prodRotateSmall">
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall1.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
                         </a>
                     </li>
-                    <li class="prodRotateSItem">
-                        <a href="#" onclick="retrun false">
-                            <img src="Images/prodRotateSmall2.jpg" width="180" height="60" alt="">
-                            <span class="mask">&nbsp;</span>
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall2.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
+                        </a>
+                    </li>
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall3.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
+                        </a>
+                    </li>
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall4.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
+                        </a>
+                    </li>
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall5.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
+                        </a>
+                    </li>
+                    <li class="prodRotateSmallItem">
+                        <a href="#" onclick="return false" class="prodRotateSmallLink">
+                            <img class="prodRotateSmallImg" src="Images/prodRotateSmall6.jpg" width="180" height="60" alt="">
+                            <span class="mask"></span>
                         </a>
                     </li>
                 </ul>
-
             </div>
 
+            <!-- rotate big --->
+            <figure id="product_image">
+                <img src="Images/prodRotate1.jpg" class="prodRotateImg" />
+                <img src="Images/prodRotate2.jpg" class="prodRotateImg hidden" />
+                <img src="Images/prodRotate3.jpg" class="prodRotateImg hidden" />
+                <img src="Images/prodRotate4.jpg" class="prodRotateImg hidden" />
+                <img src="Images/prodRotate5.jpg" class="prodRotateImg hidden" />
+                <img src="Images/prodRotate6.jpg" class="prodRotateImg hidden" />
+            </figure>
+
+            <!-- content -->
             <div class="widthNarrow">
                 <div id="content">
                     <section id="product_section">
