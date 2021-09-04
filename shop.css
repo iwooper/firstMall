@@ -240,16 +240,11 @@ ul {
 #product_article > img {
     display: block;
 }
+
 /* 푸터 */
 #main_footer {
-    text-align: center;
     margin-top: 30px;
 }
-#main_footer > h1 {
-    font-size: 1.2rem;
-    color: dimgray;
-}
-
 
 /*
 * 쇼핑몰 스타일로 변경을 위해 여기부터 추가됨
@@ -363,6 +358,7 @@ ul {
 
 /* 푸터 1열 */
 .footer-layer1 {
+    text-align: center;
     border-top: 2px solid #ddd;
     border-bottom: 1px solid #ddd;
     height: 30px;
