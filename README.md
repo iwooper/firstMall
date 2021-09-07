@@ -11,3 +11,6 @@ https://docs.google.com/presentation/d/1n9CLp7U-riZNuwddjkocsqgA0esEM4FBvHVjM-GP
 
 **소셜커머스 메인 페이지 2**
 https://docs.google.com/presentation/d/1IstrIc3N0mRcK8Wg38iUTVole_O_3ZoFHqwghEM_rDM/edit?usp=sharing
+
+**소셜커머스 메인 페이지 3**
+https://docs.google.com/presentation/d/1qMn7Bejjn_RKy1DuDCms7NM0nAbsllp-tDqsSMjMrs0/edit?usp=sharing
