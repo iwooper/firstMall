@@ -32,11 +32,14 @@ ul {
 }
 
 /* 사이드 */
+#aside-box {
+  position: relative;
+}
 #global_aside {
   position: absolute;
-  left: 990px;
+  left: 50%;
   top: 20px;
-  width: 90px;
+  margin-left: 500px;
 }
 #global_aside > a {
   display: block;
@@ -275,8 +278,10 @@ ul {
 /* 행 폭이 달라지는 레이아웃에서 각 행의 너비를 지정 */
 #wrap {
   width: 100%;
+  min-width: 1020px;
   overflow: hidden;
 }
+/* 980px 고정크기 행 */
 .narrow {
   width: 980px;
   margin: 0 auto;
@@ -290,6 +295,9 @@ ul {
 }
 
 /* 메인 배너 */
+#product_image {
+  overflow: hidden;
+}
 .main-banner {
   position: relative;
   left: 50%;
@@ -364,7 +372,6 @@ ul {
   border-bottom: 1px solid #ddd;
   height: 30px;
   padding-top: 20px;
-  min-width: 1020px;
   white-space: nowrap;
 }
 .footer-layer1 > a {
@@ -421,15 +428,10 @@ ul {
   font-size: 11px;
 }
 .footer-layer2 > .safe-service {
-  float: left;
   width: 270px;
   font-size: 11px;
 }
-.footer-layer2 > .safe-service > span {
-  font-size: 11px;
-}
 .footer-layer2 > .safe-service > a {
-  font-size: 11px;
   text-decoration: underline;
 }
 
@@ -443,7 +445,6 @@ ul {
   width: 968px;
   height: 80px;
   margin: 0 auto;
-  position: relative;
 }
 
 /* 푸터 4열 */
@@ -452,7 +453,6 @@ ul {
 }
 .footer-layer4 > .copyright {
   height: 80px;
-  min-width: 1020px;
   text-align: left;
   width: 1020px;
   margin: 0 auto;
