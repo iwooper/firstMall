@@ -1,5 +1,9 @@
 # firstMall
 
+**탭컨트롤 부분**  
+practice.html ---> left 50% 잡아서 처리 (메인 이미지 똑같이)  
+shop.html ---> 탭컨트롤을 narrow안에 넣어서 처리  
+  
 **Git 버전 관리**  
 https://docs.google.com/presentation/d/1GPRYS5slh1F0Gr_FYMPCVh14wvHyo5BwoUW988AkKGc/edit?usp=sharing
 
