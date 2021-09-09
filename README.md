@@ -51,4 +51,4 @@ https://irokousui.github.io/firstMall/shop.html
 
 **정성원**
 https://github.com/iwooper  
-https://iwooper.github.io/firstMall
+https://iwooper.github.io/firstMall/
