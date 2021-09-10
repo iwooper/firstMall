@@ -21,6 +21,12 @@ body {
 	width: 100%;
 }
 
+#wrap {
+	position: relative;
+    min-width: 1020px;
+    overflow: hidden;
+}
+
 .narrow {
 	width: 980px;
 	margin: 0 auto;
@@ -72,14 +78,18 @@ body {
 
 #global_aside {
 	position: absolute;
-	left: 1070px;
-	top: 75px;
-	width: 90px;
+    left: 50%;
+    top: 475px;
+    width: 90px;
+    margin-left: 500px;
 }
 
 #global_aside > a {
 	display: block;
 	margin-bottom: 5px;
+}
+.aside-box {
+	position: relative;
 }
 
 /* 네비게이션_위 */
@@ -378,12 +388,11 @@ span.mask:hover {
 
 #product_section {
 	overflow: hidden;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 #product_section > #product_article {
 	float: left;
-	width: 100%;
 }
 
 #product_section > #product_aside {
@@ -430,7 +439,7 @@ span.mask:hover {
 
 article#product_article {
 	border: 1px solid #ddd;
-	padding: 15px;
+	padding: 14px;
 }
 
 .prod-buy {
