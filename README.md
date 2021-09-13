@@ -19,6 +19,18 @@ https://docs.google.com/presentation/d/1IstrIc3N0mRcK8Wg38iUTVole_O_3ZoFHqwghEM_
 **소셜커머스 메인 페이지 3**  
 https://docs.google.com/presentation/d/1qMn7Bejjn_RKy1DuDCms7NM0nAbsllp-tDqsSMjMrs0/edit?usp=sharing
 
+**소셜커머스 메인 페이지 4 - 푸터1**  
+https://docs.google.com/presentation/d/1uT0Lk7apyR9kA28r5RADn6rINmBn8pFRaIxv_-vl1dM/edit?usp=sharing
+
+**소셜커머스 메인 페이지 4 - 푸터2**  
+https://docs.google.com/presentation/d/19gJ3FB-ki2xFUA95s6EGWUwEW30xlg4b_O1VBCDniVI/edit?usp=sharing
+
+**소셜커머스 메인 페이지 4 - 푸터3**  
+https://docs.google.com/presentation/d/16dECvBRVjf9rW0zNlTRES2zT-5zFhTkOo190KlOiwNs/edit?usp=sharing
+
+**소셜커머스 메인 페이지 4 - 푸터4**  
+https://docs.google.com/presentation/d/1PX0ULzDAiAk22d3hVY2Zro_YccFg-b8THOVkXgwA8x0/edit?usp=sharing
+
 **김정욱**
 https://github.com/guhwangjm  
 https://guhwangjm.github.io/firstMall/shop.html
