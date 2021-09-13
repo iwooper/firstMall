@@ -2,8 +2,8 @@
 
 **탭컨트롤 부분**  
 practice.html ---> left 50% 잡아서 처리 (메인 이미지 똑같이)  
-shop.html ---> 탭컨트롤을 narrow안에 넣어서 처리  
-  
+shop.html ---> 탭컨트롤을 narrow안에 넣어서 처리
+
 **Git 버전 관리**  
 https://docs.google.com/presentation/d/1GPRYS5slh1F0Gr_FYMPCVh14wvHyo5BwoUW988AkKGc/edit?usp=sharing
 
@@ -44,6 +44,8 @@ https://github.com/yejiyej
 https://yejiyej.github.io/firstMall/01.html
 
 **박성진**
+https://github.com/pilesofpaper
+https://pilesofpaper.github.io/higher99999/shop.html
 
 **이서원**
 https://github.com/irokousui  
