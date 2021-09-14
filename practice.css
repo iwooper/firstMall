@@ -506,6 +506,70 @@ span.mask:hover {
 	text-decoration: underline;
 }
 
+/* 푸터 3행 */
+.footer-layer3 {
+	border-top: solid 1px #ddd;
+}
+
+.footer-layer3 > .cert-list {
+	background: url("Images/footer_asset.png");
+	background-position: -44px -92px;
+	width: 968px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+/* 푸터 4행 */
+.footer-layer4 {
+	background: #333;
+}
+
+.footer-layer4 > .copyright {
+	height: 80px;
+	text-align: left;
+	width: 1020px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footer-layer4 > .copyright > * {
+	float: left;
+}
+
+.footer-layer4 > .copyright > p {
+	color: #888 !important;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 10px;
+}
+
+/* SNS 링크 */
+.footer-layer4 > .copyright > .sns-link {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.footer-layer4 > .copyright > .sns-link > li {
+	background: url("Images/footer_asset.png");
+	float: left;
+	width: 34px;
+	height: 34px;
+	margin-right: 8px;
+}
+
+.footer-layer4 > .copyright > .sns-link > .facebook {
+	background-position: -220px -30px;
+}
+
+.footer-layer4 > .copyright > .sns-link > .blog {
+	background-position: -346px -30px;
+}
+
+.footer-layer4 > .copyright > .sns-link > .instagram {
+	background-position: -389px -30px;
+}
+
+
 /* 메인 상품 이미지 스타일 */
 .prod-row {
 	overflow: hidden;

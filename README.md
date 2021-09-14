@@ -41,7 +41,7 @@ https://minjomi.github.io/mall/shop
 
 **홍형진**
 https://github.com/honghyungjin  
-https://honghyungjin.github.io/firstMall/01.html
+https://honghyungjin.github.io/firstMall/shop.html
 
 **백은진**
 https://github.com/jinyjimy  
